@@ -13,7 +13,7 @@ app.use(express.json())
 app.use('/person', personRoutes)
 
 app.get('/', (req, res) => {
-    res.json({ message: 'bora bill' })
+    res.json({ message: 'Test Express' })
 })
 
 //encodeURIComponent serve para nao quebrar os caracteres especiais 
